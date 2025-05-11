@@ -17,6 +17,7 @@ env:
 on:
   schedule:
      - cron: '0 17 * * *'  # Runs daily at 1AM SGT
+     
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
