@@ -80,4 +80,5 @@ def get_data_for_data_range(starting, ending):
 # get_PM25_data_till_yesterday()
 # get_PSI_data_till_yesterday()
 
-get_data_for_yesterday()
+# get_data_for_yesterday()
+get_data_for_data_range("2025-01-01", "2025-05-09")
