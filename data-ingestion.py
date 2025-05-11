@@ -29,7 +29,9 @@ def snowpark_basic_auth() -> Session:
   return Session.builder.configs(connection_parameters).create()
 
 def get_data_for_yesterday():
-  yesterday = (datetime.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+  sgt = pytz.timezone("Asia/Singapore")
+  now_sgt = datetime.now(sgt)
+  yesterday = (now_sgt - timedelta(days=1)).strftime('%Y-%m-%d')
   get_data_for_data_range(yesterday, yesterday)
 
 def get_data_for_data_range(starting, ending):
