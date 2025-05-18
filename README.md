@@ -32,7 +32,8 @@ Provides hourly PSI and sub-index pollutant levels (PM10, SO2, CO, NO2, O3) acro
 This ensures a reliable and automated pipeline to bring external environmental data into Snowflake for downstream processing.
 
 ### ❄️ Snowflake
-
+![Data Lineage Diagram](https://github.com/ArronATW/Singapore_Air_Quality_Project/blob/main/Snowflake%20Data%20Lineage%20Diagram.png)
+![Schemas Diagram](https://github.com/ArronATW/Singapore_Air_Quality_Project/blob/main/SG_AQI_DB_SCHEMAS.png)
 #### Staging Layer
 
 The staging layer handles the initial loading and preparation of air quality data from raw sources before further transformation.
@@ -93,7 +94,7 @@ This layer performs key transformations and prepares data for analytical consump
 
 
 ##  Architecture
-![Data Lineage Diagram](https://github.com/ArronATW/Singapore_Air_Quality_Project/blob/main/Snowflake%20Data%20Lineage%20Diagram.png)
+
 (make diagram of ETL)
 
 ## 📈 Streamlit Dashboard
