@@ -1,5 +1,8 @@
 # 🇸🇬 Singapore Air Quality Data Engineering Project
 
+## 📈 Streamlit SG AQI Dashboard
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://singaporeairqualitydashboardpy-7eftmph7oespw6mejasnum.streamlit.app/)
+
 ## 📌 Overview
 
 This project aims to build a data engineering pipeline that collects, processes, and visualizes Singapore’s air quality data. It automates the ingestion of daily pollutant readings, loads them into a Snowflake data warehouse, and displays insights on a Streamlit dashboard.
@@ -15,13 +18,14 @@ This project aims to build a data engineering pipeline that collects, processes,
 
 The following 2 APIs from data.gov.sg are used:
 
-### PM2.5 Readings API
-Retrieves hourly PM2.5 levels by region.
+### [PM2.5 Readings API](https://data.gov.sg/datasets?query=PM2.5&resultId=d_e1058d6974c877257e32048ab128ad83&page=1)
+Retrieves hourly PM2.5 levels by region. 
 
-### PSI Readings API
+### [PSI Readings API](https://data.gov.sg/datasets?query=Psi&page=1&resultId=d_fe37906a0182569d891506e815e819b7)
 Provides hourly PSI and sub-index pollutant levels (PM10, SO2, CO, NO2, O3) across regions.
 
-## ⚙️ Data Pipeline
+##  Architecture
+![E2E Diagram](https://github.com/ArronATW/Singapore_Air_Quality_Project/blob/main/architecture.png)
 
 ### ⏰ GitHub Actions (Data Ingestion Workflow)
 
@@ -93,12 +97,6 @@ This layer performs key transformations and prepares data for analytical consump
   - Supports daily trend analysis and summary reporting in dashboards.
 
 
-##  Architecture
-
-(make diagram of ETL)
-
-## 📈 Streamlit Dashboard
-(url)
 
 
 
