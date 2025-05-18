@@ -96,8 +96,8 @@ This layer performs key transformations and prepares data for analytical consump
   - Computes prominent pollutant and daily AQI similarly to the hourly table.  
   - Supports daily trend analysis and summary reporting in dashboards.
 
+## 🛑 Pipeline Status
 
-
-
+As of **11 May 2025**, the automated data pipeline has been paused due to the exhaustion of Snowflake credits during development.
 
 
