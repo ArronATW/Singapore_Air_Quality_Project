@@ -93,7 +93,7 @@ This layer performs key transformations and prepares data for analytical consump
 
 
 ##  Architecture
-(data lineage table)
+![Data Lineage Diagram](https://github.com/ArronATW/Singapore_Air_Quality_Project/blob/main/Snowflake%20Data%20Lineage%20Diagram.png)
 (make diagram of ETL)
 
 ## 📈 Streamlit Dashboard
